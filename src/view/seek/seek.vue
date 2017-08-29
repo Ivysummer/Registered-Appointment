@@ -1,6 +1,6 @@
 <template>
 	<div class="seek">
-		
+		这里是{{ name }}内容！！！
 	</div>
 </template>
 

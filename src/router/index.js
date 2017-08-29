@@ -13,6 +13,7 @@ import Mine from '@/view/mine/mine'
 
 Vue.use(Router)
 
+
 export default new Router({
   routes: [
     {
@@ -22,28 +23,31 @@ export default new Router({
     {
       path: '/index',
       name: 'index',
-      component: Index
+      component: Index,
+      children:[
+        {
+          path:'/seek',
+          name:'seek',
+          component:Seek
+        },
+        {
+          path:'/health',
+          name:'health',
+          component:Health
+        },
+        {
+          path:'/chat',
+          name:'chat',
+          component:Chat
+        },  
+        {
+          path:'/mine',
+          name:'mine',
+          component:Mine
+        }
+      ]
+
     },
-    {
-      path:'/seek',
-      name:'seek',
-      component:Seek
-    },
-    {
-      path:'/health',
-      name:'health',
-      component:Health
-    },
-    {
-      path:'/chat',
-      name:'chat',
-      component:Chat
-    },
-    {
-      path:'/mine',
-      name:'mine',
-      component:Mine
-    }
 
   ]
 })
