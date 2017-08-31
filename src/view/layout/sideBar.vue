@@ -1,6 +1,6 @@
 <template>
 	<div class="sideBar">
-		<h1><i class="fa fa-bars" aria-hidden="true"></i></h1>
+		<span><i class="fa fa-bars" aria-hidden="true"></i></span>
 	</div>
 </template>
 
@@ -16,14 +16,20 @@
 
 <style>
 .sideBar{
-	position:relative;
-	overflow: hidden;
+    overflow: hidden;
+    margin-bottom: .5rem;
+    background-color: #fafafa;
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    top: 0;
+    left: 8px;
+    z-index: 100;
 }
-h1{
-	/*width: 40px;
-	height: 40px;
-	display: block;
-	float: left;*/
+.sideBar span{
+    font-size: 1.5rem;
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
 </style>

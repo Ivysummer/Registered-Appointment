@@ -1,0 +1,35 @@
+{
+  "resultCode": "0",
+  "resultMsg": "获取就医页饮食列表信息出错信息1",
+  "data":{
+        "dietList":[
+            {
+                "title":"吃货注意！盛夏吃鱼生吃进这条虫...",
+                "conut":486,
+                "image_url":"/diet1.jpg"
+            },
+            {
+                "title":"常吃蓝莓的这些好处你知道吗？",
+                "conut":552,
+                "image_url":"/diet2.jpg"
+            },
+            {
+                "title":"榴莲味道虽独特，但营养价值很高哦！",
+                "conut":565,
+                "image_url":"/diet3.jpg"
+            },
+            {
+                "title":"多吃4种菜，你比同龄人更容易长寿。餐桌上很常见！",
+                "conut":533,
+                "image_url":"/diet4.jpg"
+            },
+            {
+                "title":"不能让味精变'害人精',用的时候别犯4个错！",
+                "conut":518,
+                "image_url":"/diet5.jpg"
+            }
+        ],
+        
+
+  }
+

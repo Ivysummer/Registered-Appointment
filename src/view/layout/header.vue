@@ -1,7 +1,7 @@
 <template>
 	<div class="headSearch">
 		<div class="locate">
-			<span>广州</span>
+			<span class="locateTip">广州</span>
 			<span class="locateIcon"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
 		</div>
 		<div class="innerSearch">
@@ -25,36 +25,68 @@
 <style>
 /*头部*/
 .headSearch{
-	position: relative;
-	overflow: hidden;
+	position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 2rem;
+    margin-top: 9px;
+    top: 23px;
+    left: 7px;
+    right: 0;
+    z-index: 100;
+    background-color: #fafafa;
 }
-.locate{
-	width: 25%;
+.locate {
+    width: 20%;
     float: left;
-    display: inline-block;
+    /* text-align: left; */
+    position: relative;
+    margin: 5px auto;
 }
-.locateIcon{
-	width: 1rem;
+.locateTip {
+    font-size: .9rem;
+    margin: auto;
+}
+.locateIcon {
+    width: 1rem;
     height: 1rem;
     display: inline-block;
+    position: absolute;
+    top: 13%;
+    left: 74%;
 }
-.innerSearch {
+.locateIcon i {
+    width: 1rem;
+    height: 1rem;
+    
+}
+.headSearch .innerSearch {
     float: right;
     width: 75%;
+    margin-right: 17px;
 }
-.innerSearch .mint-search {
+.headSearch .innerSearch .mint-search {
     height: 100%;
 }
-.innerSearch .mint-searchbar{
+.headSearch .innerSearch .mint-searchbar{
     padding: 0;
 }
-.innerSearch .mint-searchbar-inner{
+.headSearch .innerSearch .mint-searchbar-inner{
 	padding: 0;
-	/*background-color: #d0d0d0;*/
+    border: 1px solid #e1e1e1;
 }
-.innerSearch input{
+.headSearch .innerSearch .mint-searchbar-inner i{
+    padding: .5rem;
+}
+.headSearch .innerSearch input{
 	padding: 0;
     /*background-color: #d0d0d0;*/
+}
+.headSearch .innerSearch .mint-searchbar-cancel{
+    background-color: white;
+    margin: 0;
+    font-size: .8rem;
+    padding: .4rem;
 }
 
 /*.locate i.fa {

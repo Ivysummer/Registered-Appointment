@@ -1,0 +1,31 @@
+{
+  "resultCode": "0",
+  "resultMsg": "获取就医页推荐列表信息出错信息1",
+  "data":{
+        "recommendList": [
+            {
+                "title":"营养专家怎么'管不住嘴'？一道菜不超过三筷子",
+                "conut":360,
+                "image_url":"/recom1.jpg"
+            },
+            {
+                "title":"健康不是‘不生病’！中医眼中的健康标准有10个，看看你有多健康？",
+                "conut":376,
+                "image_url":"/recom2.jpg"
+            },
+            {
+                "title":"秋天这五种瓜超养人，错过要再等一年！",
+                "conut":541,
+                "image_url":"/recom3.jpg"
+            },
+            {
+                "title":"孕期出现问题怎么办？这些都是你要知道的",
+                "conut":412,
+                "image_url":"/recom4.jpg"
+            }
+
+        ]
+        
+
+  }
+

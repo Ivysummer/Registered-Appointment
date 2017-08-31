@@ -46,9 +46,13 @@
 .footer{
 	height: 4rem;
     margin-top: .9rem;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
-.mint-tabbar{
+.footer .mint-tabbar{
 	position: fixed;
 }
 .footer i{
@@ -57,14 +61,19 @@
     font-size: 1.3rem;
 
 }
-/*.footer span{
-}*/
-.footer .mint-tabbar > .mint-tab-item.is-selected{
-	
-	text-decoration: none;
-}
 
 .footer .mint-tab-item-label{
+    display: block;
 	
+}
+.footer .mint-tab-item-label a{
+	color: #272727;
+    text-decoration: none;
+	cursor: none;
+}
+.footer .mint-tab-item-label a:hover{
+	color:#26a2ff;
+    
+
 }	
 </style>

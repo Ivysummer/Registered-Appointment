@@ -1,0 +1,50 @@
+{
+  "resultCode": "0",
+  "resultMsg": "获取就医页保健列表信息出错信息1",
+  "data":{
+        "healthList":[
+            {
+                "title":"长时间玩手机眼睛疼怎么办？",
+                "conut":350,
+                "image_url":"/health1.jpg"
+            },
+            {
+                "title":"水果蔬菜放冰箱保鲜？这些生活常识错误你中了几个？",
+                "conut":346,
+                "image_url":"/health2.jpg"
+            },
+            {
+                "title":"流鼻血的时候头要向上仰还是举手呢？",
+                "conut":312,
+                "image_url":"/health5.jpg"
+            },
+            {
+                "title":"被蚊子叮咬后千万别做这三件事",
+                "conut":632,
+                "image_url":"/health3.jpg"
+            },
+            {
+                "title":"长时间玩手机眼睛疼怎么办？",
+                "conut":350,
+                "image_url":"/health1.jpg"
+            },
+            {
+                "title":"水果蔬菜放冰箱保鲜？这些生活常识错误你中了几个？",
+                "conut":346,
+                "image_url":"/health2.jpg"
+            },
+            {
+                "title":"儿童睡眠不好怎么办？几招轻松搞定！",
+                "conut":537,
+                "image_url":"/health4.jpg"
+            },
+            {
+                "title":"半夜小腿抽筋不仅仅是缺钙啊...",
+                "conut":322,
+                "image_url":"/health5.jpg"
+            }
+        ]
+        
+
+  }
+
