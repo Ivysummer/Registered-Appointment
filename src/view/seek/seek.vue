@@ -211,22 +211,23 @@
 		 vm.getData();//获取JSON数据
 		},
 		methods:{
-
 			//获取动态数据（json也有可能接口）
 			getData(){
-				
-			 this.$http.get('../../../static/dataJson/seekInfo.json').then(function(response){
-			     // alert(1);
-			   console.log('response',response)
-			   // console.log("这是我们需要的json数据",response.data.data)
-			   this.data = response.data.data;
+			var vm = this;	
+			 vm.$http.get('../../../static/dataJson/seekInfo.json').then(function(response){
+			   // alert(1);
+			   console.log("这是我们需要的json数据",response.data.data)//返回所有的数据
+			   vm.recommendList = response.data.data.recommendList;// 推荐列表
+			   vm.healthList = response.data.data.healthList;      // 保健列表
+			   vm.dietList = response.data.data.dietList;          // 饮食列表
+			   vm.doctorList = response.data.data.doctorList;      // 中医列表
+			   vm.oldList = response.data.data.oldList;           // 老人列表
 			 }, function(response){
 			   alert("请求失败了")
 			 })
 			}
 
 		}
-
 	}
 	
 </script>
